@@ -1,0 +1,104 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+}
+section{
+    margin-top: 50px;
+}
+.container{
+    width: 90%;
+}
+.main-container{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+h3{
+    font-size: 25px;
+}
+.delivery-color{
+    color:orangered;
+}
+.half-width{
+    width:45%;
+    margin: 0 auto;
+}
+.one-third-width{
+    width:30%;
+    margin: 0 auto;
+}
+.half-width img{
+    width: 80%;
+}
+.faster-btn{
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 15px 40px;
+    border-radius: 30px;
+    color:white;
+    margin-top: 30px;
+    display: inline-block;
+}
+#about-me {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#about-me .main-container{
+    align-items: center;
+}
+#about-me img{
+    width:40%;
+}
+  
+#about-me .half-width img{
+    padding-top: 70px;
+    padding-left: 150px; 
+}
+.order-food{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#recipies .recipies-item{
+    text-align: center;
+}
+#recipies .half-width{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#recipies .half-width img{
+    width: 100%;
+}
+#social-media .one-third-width{
+    text-align: center;
+}
+#social-media .one-third-width h3{
+    font-weight:bold;
+    color:red;
+}
+#social-media{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 2%;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-left: 2%;
+
+}
+#footer .orange{
+    color: orange;
+}
+#footer .deep-orange{
+    color: #795109;
+}
+#footer p{
+    color:white;
+}
+
